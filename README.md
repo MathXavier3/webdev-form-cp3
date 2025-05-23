@@ -30,7 +30,6 @@ Este projeto foi desenvolvido como parte da avaliação CP3 da disciplina de Fro
 ## 👤 Autores
 
 - Matheus Xavier
-- Felipe Riofrio
 
 ---
 
