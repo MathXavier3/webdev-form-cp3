@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Produtos</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .erro {
+        color: red;
+        margin-top: 10px;
+      }
+      .produto {
+        margin-top: 10px;
+      }
+      .tecnologia {
+        font-weight: bold;
+      }
+      .alimentos {
+        background-color: yellow;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cadastro de Produtos</h1>
+
+    <form id="formulario">
+      <label
+        >Nome do Produto:
+        <input type="text" id="nome" /> </label
+      ><br /><br />
+
+      <label
+        >Preço:
+        <input type="number" id="preco" step="0.01" /> </label
+      ><br /><br />
+
+      <label
+        >Categoria:
+        <select id="categoria">
+          <option value="">-- Selecione --</option>
+          <option value="Tecnologia">Tecnologia</option>
+          <option value="Alimentos">Alimentos</option>
+          <option value="Vestuário">Vestuário</option>
+        </select> </label
+      ><br /><br />
+
+      <button type="submit">Cadastrar Produto</button>
+    </form>
+
+    <div class="erro" id="mensagemErro"></div>
+
+    <h2>Produtos Cadastrados:</h2>
+    <div id="listaProdutos"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
